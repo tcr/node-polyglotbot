@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Google Translator and Bing Translator support.",
   "dependencies": {
-    "rem": "~0.5.12"
+    "rem": "~0.5.13"
   },
   "repository": "http://github.com/tcr/polyglotbot",
   "author": "Tim Cameron Ryan",
