@@ -1,6 +1,6 @@
 {
   "name": "polyglotbot",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Google Translator and Bing Translator support.",
   "dependencies": {
     "rem": "~0.5.13"
