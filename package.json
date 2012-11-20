@@ -1,7 +1,7 @@
 {
   "name": "polyglotbot",
-  "version": "0.0.2",
-  "description": "Google Translator and Bing Translator support.",
+  "version": "0.0.3",
+  "description": "A quick and dirty module to pronounce and translate strings into other languages.",
   "dependencies": {
     "rem": "~0.5.13"
   },
