@@ -1,0 +1,26 @@
+# polyglotbot
+
+A quick and dirty Node.js module to translate strings into other languages. To translate text in production, use something that violates fewer terms of service ;)
+
+## Usage
+
+`npm install polyglotbot`
+
+Then `require('polyglotbot/google')` or `require('polyglotbot/bing')` by your preference.
+
+* **polyglotbot.translate(from, to, text, callback(err, translations))** &mdash; Translates text from one language into another. Returns translations in preferential order.
+* **polyglotbot.pronounce(lang, text, callback(err, mp3stream))** &mdash; Pronounce text in a given language.
+
+## Example
+
+```
+var polyglotbot = require('polyglotbot/google');
+
+polyglotbot.translate('en', 'nl', 'Want to learn some Dutch?', function (err, translations) {
+	console.log(translations[0]);
+});
+
+polyglotbot.pronounce('en', 'Do you understand the words that are coming out of my mouth?', function (err, stream) {
+	stream.pipe(require('fs').createWriteStream('jackson.mp3')); // Save the mp3 file
+});
+```
