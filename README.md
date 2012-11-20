@@ -1,6 +1,6 @@
 # polyglotbot
 
-A quick and dirty Node.js module to translate strings into other languages. To translate text in production, use something that violates fewer terms of service ;)
+A quick and dirty Node.js module to pronounce and translate strings into other languages. To translate text in production, use something that violates fewer terms of service ;)
 
 ## Usage
 
